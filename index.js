@@ -1,0 +1,71 @@
+module.exports = {
+  aor: {
+    action: {
+      delete: '삭제',
+      show: '보기',
+      list: '목록',
+      save: '저장',
+      create: '작성',
+      edit: '편집',
+      cancel: '취소',
+      refresh: '갱신',
+      add_filter: '필터추가',
+      remove_filter: '필터삭제',
+    },
+    boolean: {
+      true: '예',
+      false: '아니요',
+    },
+    page: {
+      list: '%{name} 리스트',
+      edit: '%{name} #%{id}',
+      show: '%{name} #%{id}',
+      create: '%{name} 작성',
+      delete: '%{name} #%{id} 삭제',
+      dashboard: '대쉬보드',
+    },
+    input: {
+      image: {
+        upload_several: '업로드 파일들을 드롭하거나 선택하여 주십시요',
+        upload_single: '업로드 파일을 드롭하거나 선택하여 주십시요',
+      },
+    },
+    message: {
+      yes: '예',
+      no: '아니요',
+      are_you_sure: '진행하겠습니까?',
+      about: '상세',
+    },
+    navigation: {
+      no_results: '결과가 없습니다',
+      page_out_of_boundaries: '잘못된 페이지를 지정하였습니다',
+      page_out_from_end: '못된 페이지를 지정하였습니다',
+      page_out_from_begin: '못된 페이지를 지정하였습니다',
+      page_range_info: '%{total} 건중 %{offsetBegin}-%{offsetEnd}',
+      next: '다음으로',
+      prev: '이전으로',
+    },
+    auth: {
+      username: '사용자명',
+      password: '패스워드',
+      sign_in: '로그인',
+      sign_in_error: '로그인에 실패하였습니다',
+      logout: '로그아웃',
+    },
+    notification: {
+      updated: '갱신되었습니다',
+      created: '작성되었습니다',
+      deleted: '삭제되었습니다',
+      item_doesnt_exist: '존재하지 않는 아이템입니다',
+    },
+    validation: {
+      required: '필수',
+      minLength: '최소길이 %{min} 문자',
+      maxLength: '최대길이 %{max} 문자',
+      minValue: '최소값 %{min}',
+      maxValue: '최대값 %{max}',
+      number: '숫자가 아닙니다',
+      email: '이메일 형식이 아닙니다',
+    },
+  },
+};
